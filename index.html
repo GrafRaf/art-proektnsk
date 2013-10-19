@@ -8,6 +8,7 @@
 
     <link href="Content/Site.css" rel="stylesheet" />
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/jquery.fancybox.css" rel="stylesheet" />
 </head>
 <body>
     <div class="navbar navbar-fixed-top navbar-inverse">
@@ -36,65 +37,24 @@
     <div class="container">
         <h3>Мы работаем на рынке проектирования с 2003 года</h3><br />
         <div class="col-md-3">
-            <div id="carousel-example-generic" class="carousel slide">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
-                </ol>
-
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <img src="images/ИСО min.jpg" />
-                        <div class="carousel-caption">
-                            ИСО
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="images/ИСО прил min.jpg" />
-                        <div class="carousel-caption">
-                            ИСО приложение
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="images/ИСО разр min.jpg" />
-                        <div class="carousel-caption">
-                            ИСО разрешение
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="images/СРО стр1 min.jpg" />
-                        <div class="carousel-caption">
-                            СРО стр.1
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="images/СРО стр2-1 min.jpg" />
-                        <div class="carousel-caption">
-                            СРО страница 2
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="images/СРО стр3-1 min.jpg" />
-                        <div class="carousel-caption">
-                            СРО страница 3
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Controls -->
-                <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                    <span class="icon-prev"></span>
-                </a>
-                <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                    <span class="icon-next"></span>
-                </a>
-            </div>
+	        <a class="fancybox" rel="gallery1" href="images/ИСО.jpg" title="ИСО">
+		        <img src="images/ИСО min.jpg" alt="" class="col-md-6" />
+	        </a>
+        	<a class="fancybox" rel="gallery1" href="images/ИСО прил.jpg" title="ИСО приложение">
+	        	<img src="images/ИСО прил min.jpg" alt="" class="col-md-6" />
+	        </a>
+        	<a class="fancybox" rel="gallery1" href="images/ИСО разр.jpg" title="ИСО разрешение">
+	        	<img src="images/ИСО разр min.jpg" alt="" class="col-md-6" />
+	        </a>
+        	<a class="fancybox" rel="gallery1" href="images/СРО стр1.jpg" title="СРО стрница 1">
+	        	<img src="images/СРО стр1 min.jpg" alt="" class="col-md-6" />
+	        </a>
+        	<a class="fancybox" rel="gallery1" href="images/СРО стр2-1.jpg" title="СРО стрница 2">
+	        	<img src="images/СРО стр2-1 min.jpg" alt="" class="col-md-6" />
+        	</a>
+	        <a class="fancybox" rel="gallery1" href="images/СРО стр3-1.jpg" title="СРО стрница 3">
+		        <img src="images/СРО стр3-1 min.jpg" alt="" class="col-md-6" />
+	        </a>
         </div>
         <div class="col-md-8">
             <h3>Виды деятельности</h3>
@@ -123,6 +83,8 @@
         </div>
     </div>
     <script src="Scripts/jquery-2.0.3.min.js"></script>
+    <script src="Scripts/jquery.fancybox.js"></script>
+    <script src="Scripts/jquery.fancybox.pack.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
     <script src="scripts/angular.min.js"></script>
     <script src="scripts/ui-bootstrap-0.6.0.min.js"></script>
@@ -130,6 +92,11 @@
     <script src="_scripts/index.js"></script>
     <script>
         angular.module('art-proektnsk', [], function () {
+$(".fancybox").fancybox({
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	});
+
         });
     </script>
 </body>
