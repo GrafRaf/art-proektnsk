@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{18F68E7E-DDA0-40C2-97D8-89572066A620}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>artp_proektnsk</RootNamespace>
+    <AssemblyName>artp-proektnsk</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitattributes" />
+    <Content Include=".gitignore" />
+    <Content Include="contacts.html" />
+    <Content Include="images\iso1-min.jpg" />
+    <Content Include="images\iso1.jpg" />
+    <Content Include="images\iso2-min.jpg" />
+    <Content Include="images\iso2.jpg" />
+    <Content Include="images\iso3-min.jpg" />
+    <Content Include="images\iso3.jpg" />
+    <Content Include="images\projects\10\min.jpg" />
+    <Content Include="images\projects\10\1.jpg" />
+    <Content Include="images\projects\10\2.jpg" />
+    <Content Include="images\projects\11\1.jpg" />
+    <Content Include="images\projects\11\2.jpg" />
+    <Content Include="images\projects\11\min.jpg" />
+    <Content Include="images\projects\12\1.jpg" />
+    <Content Include="images\projects\12\min.jpg" />
+    <Content Include="images\projects\13\1.tif" />
+    <Content Include="images\projects\13\min.jpg" />
+    <Content Include="images\projects\14\1.jpg" />
+    <Content Include="images\projects\14\min.jpg" />
+    <Content Include="images\projects\15\1.jpg" />
+    <Content Include="images\projects\15\min.jpg" />
+    <Content Include="images\projects\16\1.jpg" />
+    <Content Include="images\projects\16\min.jpg" />
+    <Content Include="images\projects\1\1.jpg" />
+    <Content Include="images\projects\1\2.jpg" />
+    <Content Include="images\projects\1\min.jpg" />
+    <Content Include="images\projects\2\1.jpg" />
+    <Content Include="images\projects\2\min.jpg" />
+    <Content Include="images\projects\3\1.jpg" />
+    <Content Include="images\projects\3\2.jpg" />
+    <Content Include="images\projects\3\min.jpg" />
+    <Content Include="images\projects\4\1.jpg" />
+    <Content Include="images\projects\4\min.jpg" />
+    <Content Include="images\projects\6\1.jpg" />
+    <Content Include="images\projects\6\min.jpg" />
+    <Content Include="images\projects\7\1.jpg" />
+    <Content Include="images\projects\7\min.jpg" />
+    <Content Include="images\projects\8\1.jpg" />
+    <Content Include="images\projects\8\2.jpg" />
+    <Content Include="images\projects\8\min.jpg" />
+    <Content Include="images\projects\9\1.jpg" />
+    <Content Include="images\projects\9\2.jpg" />
+    <Content Include="images\projects\9\min.jpg" />
+    <Content Include="images\sro1-min.jpg" />
+    <Content Include="images\sro1.jpg" />
+    <Content Include="images\sro2-min.jpg" />
+    <Content Include="images\sro2.jpg" />
+    <Content Include="images\sro3-min.jpg" />
+    <Content Include="images\sro3.jpg" />
+    <Content Include="projects.html" />
+    <Content Include="index.html" />
+    <Content Include="Scripts\jquery-1.7.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.7.1.js" />
+    <Content Include="Scripts\jquery-1.7.1.min.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="images\projects\5\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CNAME" />
+    <Content Include="images\projects\6\1.pdf" />
+    <Content Include="images\projects\6\2.pdf" />
+    <Content Include="images\projects\7\План склада.pdf" />
+    <Content Include="images\projects\12\Фасады.pln" />
+    <Content Include="images\projects\14\Цеткин.pdf" />
+    <Content Include="images\projects\16\к2.dwg" />
+    <Content Include="images\projects\16\к3.dwg" />
+    <Content Include="images\projects\16\корпус №2.pdf" />
+    <Content Include="images\projects\16\корпус №3.pdf" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51650</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:51650/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
