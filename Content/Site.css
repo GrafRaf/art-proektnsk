@@ -8,3 +8,10 @@
   background-color: white;
   border-style:none;
 }
+
+.thumbnail{
+    min-height: 350px;
+}
+.container .row {
+    padding-bottom:20px;
+}
