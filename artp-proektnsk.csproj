@@ -85,13 +85,14 @@
     <Content Include="images\projects\11\min.jpg" />
     <Content Include="images\projects\12\1.jpg" />
     <Content Include="images\projects\12\min.jpg" />
-    <Content Include="images\projects\13\1.tif" />
+    <Content Include="images\projects\13\1.jpg" />
     <Content Include="images\projects\13\min.jpg" />
     <Content Include="images\projects\14\1.jpg" />
     <Content Include="images\projects\14\min.jpg" />
     <Content Include="images\projects\15\1.jpg" />
     <Content Include="images\projects\15\min.jpg" />
     <Content Include="images\projects\16\1.jpg" />
+    <Content Include="images\projects\16\2.jpg" />
     <Content Include="images\projects\16\min.jpg" />
     <Content Include="images\projects\1\1.jpg" />
     <Content Include="images\projects\1\2.jpg" />
@@ -103,7 +104,11 @@
     <Content Include="images\projects\3\min.jpg" />
     <Content Include="images\projects\4\1.jpg" />
     <Content Include="images\projects\4\min.jpg" />
+    <Content Include="images\projects\5\1.jpg" />
+    <Content Include="images\projects\5\2.jpg" />
+    <Content Include="images\projects\5\min.jpg" />
     <Content Include="images\projects\6\1.jpg" />
+    <Content Include="images\projects\6\2.jpg" />
     <Content Include="images\projects\6\min.jpg" />
     <Content Include="images\projects\7\1.jpg" />
     <Content Include="images\projects\7\min.jpg" />
@@ -131,7 +136,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="images\projects\5\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="CNAME" />
