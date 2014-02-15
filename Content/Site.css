@@ -27,3 +27,7 @@ display: block;
 height: auto;
 max-width: 100%;
 }
+
+.ya-informer{
+    display:none;
+}
