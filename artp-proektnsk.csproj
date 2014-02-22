@@ -124,6 +124,7 @@
     <Content Include="images\sro2.jpg" />
     <Content Include="images\sro3-min.jpg" />
     <Content Include="images\sro3.jpg" />
+    <Content Include="about.html" />
     <Content Include="projects.html" />
     <Content Include="index.html" />
     <Content Include="Scripts\angular-bootstrap-prettify.js" />
