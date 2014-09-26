@@ -6,6 +6,9 @@
     background-size: cover;    
 }
 
+body > .container {
+    background-color: rgba(255,255,255,0.5);
+}
 /* styles for removing the background from form */
 .no-color {
   background-color: white;
